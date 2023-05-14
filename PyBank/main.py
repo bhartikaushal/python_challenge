@@ -4,9 +4,9 @@ total_months = 0
 sum = 0
 profitLossList = []
 Dates = []
-textFile = open("PyBank/analysis/analysis.txt", "w")
+textFile = open("analysis/analysis.txt", "w")
 
-with open("PyBank/resources/budget_data.csv","r") as csv_file:
+with open("resources/budget_data.csv","r") as csv_file:
     mycsv_reader = csv.reader(csv_file,delimiter=",")
     header = next(mycsv_reader)
 
